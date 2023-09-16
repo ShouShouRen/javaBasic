@@ -5,7 +5,6 @@ public class TestOpr2 {
         System.out.println("c="+c);
         int d = 1;
         d+=a; // d = d + a
-        //System.out.println("d="+d);
-        System.out.println("");
+        System.out.println("d="+d);
     }
 }
