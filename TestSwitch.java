@@ -5,7 +5,7 @@ public class TestSwitch {
         Scanner input = new Scanner(System.in);
         System.out.println("請輸入銀行的簡寫: ");
         String bank = input.next();
-        switch (bank){
+        switch (bank.toLowerCase()){
             case "icbc":
                 System.out.println("工商銀行");
                 break;
